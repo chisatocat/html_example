@@ -1,0 +1,108 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+html,
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  border: 3px solid red; /*for debug, can show active areas*/
+
+  background-color: #d9e2e8;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 0 20px;
+  border: 3px solid red;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px 20px 30px;
+  margin: 20px 0;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
+
+  overflow: hidden;
+}
+
+.sporty {
+  color: #dd4654;
+}
+
+.casual {
+  color: #0b4aa1;
+}
+
+.formal {
+  color: #4d2a1c;
+}
+
+/* .sporty,
+.casual,
+.formal {
+  font-size: 2rem;
+} */
+
+.card h2 {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 1.5rem;
+  letter-spacing: 0;
+  word-spacing: 0.4px;
+  margin: 7px 0 2px 0;
+
+  /* text-indent: 1rem; */
+  letter-spacing: 2px;
+
+  text-transform: capitalize;
+}
+
+.card p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.card a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+}
+
+a.sporty {
+  background-color: red;
+  color: white;
+}
+
+a.casual {
+  background-color: darkblue;
+  color: white;
+}
+
+a.formal {
+  background-color: brown;
+  color: white;
+}
+
+.card a:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+img {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+
+.card-casual {
+  background: #fff url("../img/shoe.jpg") no-repeat center right/200px;
+}

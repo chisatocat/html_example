@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: coral;
+}
+
+.hero {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+
+  /*background-image: url("../img/images.jpeg");*/
+  background-image: url("https://picsum.photos/600/600");
+
+  /* linear  gradient*/
+  background: linear-gradient(to right, lightgreen, darkblue);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+p,
+h1 {
+  color: white;
+}
