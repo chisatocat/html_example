@@ -19,6 +19,8 @@ body {
   font-weight: 600;
   background-color: rgb(0, 0, 99);
   font-size: 14px;
+  width: 100vw;
+  height: 100vh;
 }
 
 .mb-3 {
@@ -51,15 +53,10 @@ body {
 small {
   font-size: 0.75rem;
 }
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .container {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,4 +117,11 @@ body {
 .fa-check {
   color: green;
   padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .body {
+    flex-direction: column;
+    column-gap: 3rem;
+  }
 }
